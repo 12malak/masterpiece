@@ -1,0 +1,147 @@
+body {
+    background-origin: border-box;
+  
+    background: url(../img/login.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+    background-position:center;
+   
+   background-attachment: fixed;
+  
+  }
+* {
+  
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+
+  /* Startcard */
+
+  .content {
+    float: right;
+    width: 430px;
+    margin-top:40px;
+    height:600px;
+    padding: 40px 30px;
+ 
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #8c8a8ad0,
+                 2px 2px 5px rgba(185, 181, 181, 0.546);
+                 background: rgba(115, 127, 167, 0.6);
+}
+  
+  
+  .content .text {
+    font-size: 23px;
+    font-weight:800px;
+    margin-bottom: 35px;
+    color: #595959;
+  }
+  
+  .field {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    position: relative;
+  }
+  
+  .field:nth-child(2) {
+    margin-top: 20px;
+  }
+  
+  .field .input {
+    height: 100%;
+    width: 100%;
+    padding-right: 45px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background: #dde1e7;
+    color: #595959;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #BABECC,
+                inset -5px -5px 10px #ffffff73;
+  }
+  
+  .field .input:focus {
+    box-shadow: inset 1px 1px 2px #BABECC,
+                inset -1px -1px 2px #ffffff73;
+              
+  }
+  
+  .field .span {
+    position: absolute;
+    color: #595959;
+    width: 50px;
+    line-height: 55px;
+  }
+  
+  .field .label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 43px;
+    pointer-events: none;
+    color: #666666;
+    font-size:18px;
+  }
+  
+  .field .input:valid ~ label {
+    opacity: 0;
+  }
+  
+  .forgot-pass {
+    text-align:right;
+    margin: 10px 0 10px 5px;
+  }
+  
+  .forgot-pass a {
+    font-size:16px;
+    color: #666666;
+    text-decoration: none;
+  }
+  
+  .forgot-pass:hover a {
+    text-decoration: underline;
+  }
+  
+  .button {
+    margin: 15px 0;
+    width:300px;
+    height: 50px;
+    font-size: 19px;
+    line-height: 50px;
+    font-weight: 600;
+    background: #dde1e7;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #595959;
+    box-shadow: 2px 2px 5px #BABECC,
+               -5px -5px 10px #ffffff73;
+               /* padding-right:10px; */
+  }
+  
+  .button:focus {
+    color: #3498db;
+    box-shadow: inset 2px 2px 5px #BABECC,
+               inset -5px -5px 10px #ffffff73;
+  }
+  
+  .sign-up {
+    margin: 10px 0;
+    color: #595959;
+    font-size:18px;
+  }
+  
+  .sign-up a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .sign-up a:hover {
+    text-decoration: underline;
+  }
